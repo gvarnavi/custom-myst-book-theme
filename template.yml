@@ -67,6 +67,15 @@ options:
   - type: boolean
     id: hide_theme_toggle
     description: Hide the theme toggle button on the header
+  - type: boolean
+    id: hide_header_block
+    description: Hide the badges / exports / theme banner
+  - type: boolean
+    id: hide_authors
+    description: Hide authors in title block
+  - type: boolean
+    id: hide_connection_tray
+    description: Hide the jupyter connection tray
 build:
   install: npm install
   start: npm run start
